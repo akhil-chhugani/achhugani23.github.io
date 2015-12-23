@@ -1,0 +1,219 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Akhil Chhugani</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		 <!-- start-smoth-scrolling-->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		 <!-- start-smoth-scrolling-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+	</head>
+	<body>
+		<!-- MAKE IT HOLD THROUGHOOUT THE WEBSITRE FOR EASY MOVEMENT AND LESS SCROLLING. -->
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#"><p><b> Akhil Chhugani </b></p></a> <!-- change this -->
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#home" class="scroll">Home</a><span> </span></li>
+								<li><a href="#about" class="scroll">About ME </a></li>
+								<li><a href="#services" class="scroll">My Work</a></li>
+								<li><a href="#contact" class="scroll">Contact Me</a></li>
+								<div class="clearfix"> </div>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!--- //End-header-->
+			<!--banner-->
+			<div class="banner">
+				<!-- banner-info -->
+				<div class="banner-info text-center">
+					<p>Welcome to the Personal Website of</p>
+					<h1>Akhil Chhugani</h1>
+					<span>Scroll down to learn more about me</span>
+					<label> </label>
+					<div class="clearfix"> </div>
+					<a class="bannner-btn" href="https://drive.google.com/file/d/0B0VFfQV8OV1DYUpENF9BRmhZMVE/view?usp=sharing">MY RESUME</a>
+				</div>
+				<!-- //banner-info -->
+			</div>
+			<!--//banner-->
+			<!--about -->
+			<div id="about" class="about">
+				<div class="about-head text-center">
+					<div class="container">
+						<h2>ABOUT ME</h2>
+						<span> </span>
+						<p>I am Akhil Chhugani a student currently studying Systems Engineering at the University of Illinois at Urbana-Champaign, I am pursuing a Computer Science Minor and a focus in Business and Consulting. Below is some of my past experience as well as a few more things about what I do</p>
+					</div>
+				</div>
+				<!--- about-grids -->
+				<div class="about-grids text-center">
+					<div class="container">
+						<div class="col-md-3 about-grid">
+							<span class="light-icon"> </span>
+							<h3><a href="#">On-Campus Activities</a></h3>
+							<p>I work with Founders entreprenrship to lead events that promote startups on campus. Work on Illinois Business Consulting see below for more information.</p>
+							<label> </label>
+						</div>
+						<div class="col-md-3 about-grid">
+							<span class="pen-icon"> </span>
+							<h3><a href="#">Coursework</a></h3>
+							<p>Complete courses CS 225 Data Structures, and CS 173 Discrete Structures. Will be taking CS 241 Systems Programming and CS 410 Databases.</p>
+							<label> </label>
+						</div>
+						<div class="col-md-3 about-grid">
+							<span class="cog-icon"> </span>
+							<h3><a href="#">Work Experience</a></h3>
+							<p>Have worked in a multitude of areas and hope to work into a anew area such as software engieering as my passion for programming is increasing. See below for more detailed Work Experience.</p>
+							<label> </label>
+						</div>
+						<div class="col-md-3 about-grid">
+							<span class="mon-icon"> </span>
+							<h3><a href="#">Projects</a></h3>
+							<p>Currently working on learning new languages such as C# as well as beginning to work on creating my own web and mobile applications.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<!--- about-grids -->
+			</div>
+			<!--//about -->
+			<!--- services -->
+			<div id="services" class="services">
+					<!---services-grids-->
+					<div class="services-grids">
+						<div class="col-md-6 services-grid-left">
+							<div class="service-head">
+								<h2>Work Experience</h2>
+								<span> </span>
+								<p>Here is a brief summary of my past working and leadership experiences</p>
+							</div>
+							<!----- services-grid-left-grids ---->
+							<div class="services-grid-left-grids">
+								<div class="col-md-6 services-grid-left-grid">
+									<span> </span>
+									<h3><a href="#">Illinois Business Consulting</a></h3>
+									<p>As a consultant created a marketing strategy for a large cleaning product manufacturer. Promoted to Senior Consultant after first project</p>
+								</div>
+								<div class="col-md-6 services-grid-left-grid">
+									<span class="search"> </span>
+									<h3><a href="#">Outbrain</a></h3>
+									<p>Worked as Business Applications Intern. Helped configure Salesforce for users, as well as write scripts and triggers. Additionally, helped with minor QA tasks.</p>
+								</div>
+								<div class="col-md-6 services-grid-left-grid">
+									<span class="chart"> </span>
+									<h3><a href="#">ApTask IT Staffing Agency</a></h3>
+									<p>Worked as HR and Consulting Intern. Helped manage payroll and oversee process of staffing their clients with the appropriate candidates.</p>
+								</div>
+							</div>
+							<!----- services-grid-left-grids ---->
+						</div>
+						<div class="col-md-6 services-grid-right">
+							
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!---services-grids-->
+			</div>
+			<!---//services ->
+			<!--//works --->
+			<!-- contact -->
+			<div id="contact" class="contact">
+				<div class="conatiner">
+					<div class="contact-head text-center">
+							<h2>CONTACT ME</h2>
+							<span> </span>
+							<p>Contact Me Here </p>
+					</div>
+				</div>
+				<!----Contact-form-->
+				<section id="contact">
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-2 text-center">
+                    <img src="images/phones.jpeg" title="Phone" height= 50 width=50 />
+                    <p>908-655-7714</p>
+                </div>
+                <div class="col-lg-2 text-center">
+                	<a href="mailto:aachhugani@gmail.com"><img src="images/icon-email-128.png" title="Email" height= 50 width=50 /></a>
+                    <p><a href="mailto:aachhugani@gmail.com">Email</a></p>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="http://www.github.com/achhugani23"><img src="images/GitHub-Mark.png" title="Github" height= 50 width=50 /></a>
+                    <p><a href="http://www.github.com/achhugani23">Github</a></p>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <a href="https://www.linkedin.com/in/akhil-chhugani-9a5563b4"><img src="images/linkedin-logo_318-50643.png" title="LinkedIn" height= 50 width=50 /></a>
+                    <p><a href="https://www.linkedin.com/in/akhil-chhugani-9a5563b4">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+			<!--//contact -->
+			<!--copy-right-->
+			<div class="copy-right text-center">
+				<div class="container">
+					<p>Personal Website of Akhil Chhugani</p>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!---//copy-right---->
+	</body>
+</html>
+
